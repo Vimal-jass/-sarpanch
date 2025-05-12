@@ -14,7 +14,7 @@ body {
 /* India map background for entire page */
 body::before {
     content: '';
-    background-image: url('/indiamap.jpeg');
+    background-image: url('https://i.pinimg.com/736x/9b/b5/72/9bb5728bb5d3931cb056a30eff0f6361.jpg');
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
