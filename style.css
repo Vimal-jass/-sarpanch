@@ -14,7 +14,7 @@ body {
 /* India map background for entire page */
 body::before {
     content: '';
-    background-image: url('https://i.pinimg.com/736x/9b/b5/72/9bb5728bb5d3931cb056a30eff0f6361.jpg');
+    background-image: url('/indiamap.jpeg');
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ nav ul li a:hover {
     justify-content: space-between;
     padding: 50px;
     position: relative;
-    background-color: #f1f1edea;
+    background-color: #f8f9fadc;
     /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 60%, rgba(247, 148, 29, 0.05) 100%); */
 }
 
@@ -227,7 +227,7 @@ nav ul li a:hover {
 .features {
     padding: 80px 20px;
     /* background-color: #f8f9fa; */
-    background-color: #f2f2eee4;
+    background-color: #f8f9fadc;
 }
 
 .container {
@@ -326,7 +326,7 @@ nav ul li a:hover {
 /* Chapter Section */
 .chapter-section {
     padding: 80px 50px;
-    background-color: #ffffffea;
+   background-color: #f8f9fadc;
     position: relative;
 }
 
@@ -410,16 +410,19 @@ nav ul li a:hover {
 }
 
 .learning-tag {
-    display: inline-block;
-    padding: 8px 20px;
+      padding: 8px 20px;
     background-color: #f7941d;
     color: white;
+    /* color: #f7941d; */
+    border: 2px solid #f7941d;
+    border-radius: 20px;
     font-weight: 600;
     font-size: 14px;
-    letter-spacing: 1px;
-    border-radius: 20px;
-    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+
 
 .action-buttons {
     display: flex;
@@ -448,7 +451,7 @@ nav ul li a:hover {
 /* Campaigns Section */
 .campaigns-section {
     padding: 80px 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #f8f9fadc;
     position: relative;
 }
 
@@ -815,7 +818,7 @@ nav ul li a:hover {
 /* Downloads Section */
 .downloads-section {
     padding: 80px 20px;
-    background-color: #f8f9fa;
+    background-color: #f8f9fadd;
     text-align: center;
 }
 
@@ -855,7 +858,7 @@ nav ul li a:hover {
 }
 
 .referral-section {
-    background-color: #fff;
+    background-color: #9490904f;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -900,7 +903,7 @@ nav ul li a:hover {
 /* Contact Section */
 .contact-section {
     padding: 80px 20px;
-    background-color: #fff;
+   background-color: #f8f9fadc;
 }
 
 .contact-grid {
@@ -974,7 +977,7 @@ nav ul li a:hover {
 
 /* White Theme Footer Styles */
 .footer {
-    background-color: #ffffff;
+   background-color: #f8f9fadc;
     color: #333333;
     padding: 60px 0 20px;
     font-family: 'Inter', sans-serif;
